@@ -1,0 +1,65 @@
+<template>
+   <div class="partners_cards">
+      <a v-for="partner in partners" :href="partner.link" :key="partner.id">
+         <div class="partner_card">
+            <img :src="partner.img" :alt="'img' + partner.id" />
+            <h3>{{ partner.en.title }}</h3>
+         </div>
+      </a>
+      <a href="https://mon.gov.ua/ua">
+         <div class="partner_card2">
+            <img src="../assets/logo3.png" alt="img" />
+         </div>
+      </a>
+   </div>
+</template>
+
+<script lang='ts'>
+import { defineComponent } from 'vue'
+import listPartners from '../data/listPartners'
+
+export default defineComponent({
+   data() {
+      return {
+         partners: listPartners
+      }
+   }
+})
+</script>
+
+<style scoped lang='scss'>
+.partners_cards {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 40px;
+
+
+   a {
+      align-self: center;
+      height: 100%;
+   }
+
+   .partner_card {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 10px;
+
+      img {
+         width: 100%;
+         height: 100%;
+         object-fit: contain;
+         object-position: center;
+      }
+   }
+
+   .partner_card2{
+      img {
+         width: 100%;
+         object-fit: contain;
+         object-position: center;
+      }
+   }
+}
+</style>

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+html{
+   font-size: 16px;
+
+   @media (max-width: 800px) {
+      font-size: 14px;
+   }
+
+   @media (max-width: 468px) {
+      font-size: 14px;
+   }
+}
+
+body{
+   margin: 0;
+   padding: 0;
+   color: #222222;
+   font-family: 'Roboto', sans-serif;
+}
+
+#app{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   min-height: 100vh;
+}
+
+main{
+   flex: 1;
+}
+
+a{
+   text-decoration: none;
+   color: #222222;
+}
+
+h1{
+   font-size: 4.7rem;        
+}
+
+.container{
+   max-width: 1280px;
+   padding: 0 20px;
+   margin: 0 auto;
+}
+
+.ProseMirror{
+   box-sizing: border-box;
+   width: 100%;
+   font-size: 1rem;
+   outline: none;
+   resize: none;
+   border-color: transparent;
+   transition: 0.3s ease-in;
+   overflow-y: auto;
+}
+
+.ProseMirror p.is-editor-empty:first-child::before {
+   color: #adb5bd;
+   content: attr(data-placeholder);
+   float: left;
+   height: 0;
+   pointer-events: none;
+ }
