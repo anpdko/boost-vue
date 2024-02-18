@@ -133,7 +133,7 @@ export default defineComponent({
    data: () => ({
       dialog: false,
       dialogDelete: false,
-      notifications: [],
+      notifications: [] as INotification[],
       headers: [
          { title: 'Title', key: 'title' },
          { title: 'Data', key: 'updated_date' },
