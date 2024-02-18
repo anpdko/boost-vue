@@ -69,6 +69,7 @@ import { defineComponent } from 'vue'
 import listNavbar from '../data/listNavbar'
 
 export default defineComponent({
+   name: "FooterApp",
    data() {
       return {
          list: listNavbar

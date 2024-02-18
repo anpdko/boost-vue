@@ -1,11 +1,13 @@
 <template>
-  <HeaderMain/>
-  <InfoCardsMain/>
-  <SectionTitle>
-    The target country is Ukraine, and the project partner countries are Estonia, Poland, Slovenia
-  </SectionTitle>
-  <div className="container">
-    <Partners/>
+  <div>
+    <HeaderMain/>
+    <InfoCardsMain/>
+    <SectionTitle>
+      The target country is Ukraine, and the project partner countries are Estonia, Poland, Slovenia
+    </SectionTitle>
+    <div className="container">
+      <Partners/>
+    </div>
   </div>
 </template>
 

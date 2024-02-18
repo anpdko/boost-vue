@@ -135,9 +135,9 @@ export default defineComponent({
       dialogDelete: false,
       notifications: [] as INotification[],
       headers: [
-         { title: 'Title', key: 'title' },
-         { title: 'Data', key: 'updated_date' },
-         { title: 'Actions', key: 'actions', sortable: false },
+         { title: 'Title', key: 'title', sortable: true },
+         { title: 'Data', key: 'updated_date', sortable: true },
+         { title: 'Actions', key: 'actions', sortable: true },
       ],
       categories: [],
       categoriesItems: [] as string[],
