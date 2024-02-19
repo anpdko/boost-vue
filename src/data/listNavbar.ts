@@ -18,7 +18,7 @@ export default  [
    },
    {
       id: "4",
-      link: "/events/categories",
+      link: "/events",
       title: "Events"
    },
    {

@@ -22,6 +22,7 @@
                   <router-link :to="'/event/' + event.url">
                      <h3>{{ subText(event.title, 70) }}</h3>
                   </router-link>
+                  <p class="date">{{ event.date }}</p>
                   <p class="body">{{ subText(event.body, 150) }}</p>
                   <!-- <div class="body" v-html="subText(event.body, 150)"></div> -->
                </div>
@@ -157,7 +158,16 @@ export default defineComponent({
                margin: 0;
                line-height: 1.7;
                font-size: 15px;
-               color: rgba(85, 85, 85, 1);
+               color: #555555;
+            }
+
+            .date{
+               margin: 0;
+               line-height: 1.7;
+               font-size: 14px;
+               font-weight: 500;
+               color: #9c9c9c;
+               padding-bottom: 5px;
             }
          }
       }

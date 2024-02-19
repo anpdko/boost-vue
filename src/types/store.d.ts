@@ -8,6 +8,7 @@ export interface IEvent{
    imgCover: string,
    body: string,
    publisher: boolean,
+   date: string,
    url: string,
    published_date: string,
    updated_date: string,
