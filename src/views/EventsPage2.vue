@@ -6,7 +6,7 @@
       <div class="container">
          <ul class="categories" v-if="categories.length > 0 && !isLoadingCategories" >
             <li v-for="category in categories" class="category" :key="category._id">
-               <router-link :to="'/event/' + category.url">
+               <router-link :to="'/event/' + category.url" class="link">
                   <div class="box-data">
                      <div class="title-data">
                         {{ category.date }}
@@ -89,6 +89,17 @@ export default defineComponent({
       height: 100%;
       position: relative;
 
+      @media (max-width: 580px) {
+         box-shadow: 0 4px 4.5px 0px rgba(0, 0, 0, 0.10);
+         padding-left: 0px;
+         margin-left: 0px;
+      }
+
+      .link{
+         display: flex;
+         flex-direction: column;
+      }
+
       .box-data {
          box-shadow: -3px 4px 4.5px 0px rgba(0, 0, 0, 0.20);
          position: absolute;
@@ -96,7 +107,6 @@ export default defineComponent({
          bottom: -7px;
          left: 0;
          width: 160px;
-
          padding: 0 20px;
          margin-left: -40px;
          background-color: #3957FF;
@@ -106,6 +116,17 @@ export default defineComponent({
          align-items: center;
          justify-content: center;
          border-radius: 5px 0 0 5px;
+
+
+         @media (max-width: 580px) {
+            box-shadow: 0px 4px 4.5px 0px rgba(0, 0, 0, 0.20);
+            position: relative;
+            width: calc(100% - 20px);
+            margin-left: 10px;
+            border-radius: 5px;
+            padding: 3px 10px;
+            top: -10px;
+         }
 
          .title-data {
             font-size: 18px;
@@ -122,6 +143,10 @@ export default defineComponent({
             left: calc(100% - 6px);
             fill: #3957FF;
 
+            @media (max-width: 580px) {
+               display: none;
+            }
+
             path {
                position: absolute;
             }
@@ -135,6 +160,12 @@ export default defineComponent({
          padding: 15px 30px 15px 0;
          min-height: 65px;
          transition: 0.2s;
+
+         @media (max-width: 580px) {
+            padding: 15px;
+            text-align: center;
+            justify-content: center;
+         }
       }
    }
 
@@ -143,13 +174,17 @@ export default defineComponent({
       
 
       .box-data {
-         transform: translateX(10px);
-         box-shadow: -3px 4px 4.5px 0px rgba(0, 0, 0, 0.30);
+         @media (min-width: 580px) {
+            transform: translateX(10px);
+            box-shadow: 0px 4px 4.5px 0px rgba(0, 0, 0, 0.30);
+         }
       }
 
       .title {
+         @media (min-width: 580px) {
+            transform: translateX(4px);
+         }
          color: #fe6a00;
-         transform: translateX(4px);
       }
    }
 }

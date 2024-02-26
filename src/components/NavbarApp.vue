@@ -8,12 +8,12 @@
                   <img class="logo2" src="../assets/logo1.webp" alt="logo2" />
                   <img class="logo3" src="../assets/logo3.png" alt="logo3"/>
                </router-link>
-               <div class="toggle" :class="{active :toggleActive}" @click="toggleActiveState">
+               <div class="toggle" :class="{active : !toggleActive}" @click="toggleActiveState">
                   <span></span>
                   <span></span>
                   <span></span>
                </div>
-               <div class="right" :class="{active :toggleActive}">
+               <div class="right" :class="{active : toggleActive}">
                   <ul class="main_menu">
                      <li v-for="item in list" :key="item.id">
                         <router-link 
