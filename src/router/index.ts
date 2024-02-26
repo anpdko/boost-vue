@@ -30,7 +30,7 @@ const routes: RouteRecordRaw[] = [
       {
         path: '/events',
         name: 'Events',
-        component: () => import('@/views/EventsPage.vue'),
+        component: () => import('@/views/EventsPage2.vue'),
       },
       {
         path: '/events/:urlCategory',

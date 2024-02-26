@@ -5,22 +5,11 @@
       </HeaderApp>
       <div class="container">
          <ul class="categories" v-if="categories.length > 0 && !isLoadingCategories" >
-            <li class="category">
-               <router-link to="/events">
-                  <div class="box-data">
-                     <div class="title-data">-</div>
-                     <svg class="triangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85 85" preserveAspectRatio="none">
-                        <path d="M0 81C0 83.2091 1.79086 85 4 85H14.3418C15.5099 85 16.6196 84.4894 17.3796 83.6024L83.3439 6.60235C85.5669 4.00745 83.7231 0 80.3062 0H4C1.79086 0 0 1.79086 0 4V81Z"/>
-                     </svg>
-                  </div>
-                  <h3 class="title">All Boost Events</h3>
-               </router-link>
-            </li>
             <li v-for="category in categories" class="category" :key="category._id">
-               <router-link :to="'/events/' + category._id">
+               <router-link :to="'/event/' + category.url">
                   <div class="box-data">
                      <div class="title-data">
-                        {{ category.data }}
+                        {{ category.date }}
                      </div>
                      <svg class="triangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85 85" preserveAspectRatio="none">
                         <path d="M0 81C0 83.2091 1.79086 85 4 85H14.3418C15.5099 85 16.6196 84.4894 17.3796 83.6024L83.3439 6.60235C85.5669 4.00745 83.7231 0 80.3062 0H4C1.79086 0 0 1.79086 0 4V81Z"/>
@@ -45,15 +34,7 @@ import { defineComponent } from 'vue'
 import HeaderApp from '@/components/HeaderApp.vue';
 import headerImg from "@/assets/header.jpg"
 import axios from 'axios';
-
-interface ICategory {
-   _id: string;
-   data: string;
-   published_date: string;
-   title: string;
-   updated_date: string;
-   url: string;
-}
+import { IEvent } from '@/types/store'
 
 export default defineComponent({
    components: {
@@ -62,7 +43,7 @@ export default defineComponent({
    data() {
       return {
          headerImg,
-         categories: [] as ICategory[],
+         categories: [] as IEvent[],
          isLoadingCategories: false,
          API_URL: import.meta.env.VITE_API_URL,
       }
@@ -74,9 +55,9 @@ export default defineComponent({
       async fatchCategories(){
          try{
             this.isLoadingCategories = true;
-            const res = await axios.get(this.API_URL + "/api/categories")
-            if(res.status === 200 && res.data.length > 0){
-               this.categories = res.data
+            const res = await axios.get(this.API_URL + "/api/events/all")
+            if(res.status === 200 && res.data.events.length > 0){
+               this.categories = res.data.events
             }
          }
          catch(e) {
