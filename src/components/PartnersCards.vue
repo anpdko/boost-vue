@@ -1,9 +1,12 @@
 <template>
    <div class="partners_cards">
-      <a v-for="partner in partners" :href="partner.link" :key="partner.id">
+      <a v-for="partner in partners" :href="partner.link" :key="partner.id" target="_blank">
          <div class="partner_card">
             <img :src="partner.img" :alt="'img' + partner.id" />
-            <h3>{{ partner.en.title }}</h3>
+            <div>
+               <h3>{{ partner.en.title }}  </h3>    
+               <a class="event"  :href="partner.linkEvents" target="_blank"> <i class="bi bi-box-arrow-up-right"></i> events</a>
+            </div>
          </div>
       </a>
       <a href="https://mon.gov.ua/ua">
@@ -51,6 +54,19 @@ export default defineComponent({
          height: 100%;
          object-fit: contain;
          object-position: center;
+      }
+
+      .event{
+         display: flex;
+         gap:  6px;
+         font-size: 15px;
+         font-weight: 500;
+         color: #b2b2b2;
+         transition: 0.3s;
+
+         &:hover {
+            color: #fe6a00;
+         }
       }
    }
 

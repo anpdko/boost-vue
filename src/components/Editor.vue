@@ -1,41 +1,43 @@
 <template>
   <div v-if="editor">
-    <ul class="list">
-      <li @click="editor.chain().focus().toggleHeading({ level: 1 }).run()" :class="{ 'is-active': editor.isActive('heading', { level: 1 }) }">
-        <i class="bi bi-type-h1"></i>
-    </li>
-    <li @click="editor.chain().focus().toggleHeading({ level: 2 }).run()" :class="{ 'is-active': editor.isActive('heading', { level: 2 }) }">
-      <i class="bi bi-type-h2"></i>
-    </li>
-    <li @click="editor.chain().focus().toggleHeading({ level: 3 }).run()" :class="{ 'is-active': editor.isActive('heading', { level: 3 }) }">
-      <i class="bi bi-type-h3"></i>
-    </li>
-    <li @click="editor.chain().focus().setParagraph().run()" :class="{ 'is-active': editor.isActive('paragraph') }">
-      <i class="bi bi-paragraph"></i>
-    </li>
-    <li @click="editor.chain().focus().toggleBold().run()" :class="{ 'is-active': editor.isActive('bold') }">
-      <i class="bi bi-type-bold"></i>
-    </li>
-    <li @click="editor.chain().focus().toggleItalic().run()" :class="{ 'is-active': editor.isActive('italic') }">
-      <i class="bi bi-type-italic"></i>
-    </li>
-    <li @click="editor.chain().focus().toggleStrike().run()" :class="{ 'is-active': editor.isActive('strike') }">
-      <i class="bi bi-type-strikethrough"></i>
-    </li>
-    <li @click="editor.chain().focus().setTextAlign('left').run()" :class="{ 'is-active': editor.isActive({ textAlign: 'left' }) }">
-      <i class="bi bi-text-left"></i>
-    </li>
-    <li @click="editor.chain().focus().setTextAlign('center').run()" :class="{ 'is-active': editor.isActive({ textAlign: 'center' }) }">
-      <i class="bi bi-text-center"></i>
-    </li>
-    <li @click="editor.chain().focus().setTextAlign('right').run()" :class="{ 'is-active': editor.isActive({ textAlign: 'right' }) }">
-      <i class="bi bi-text-right"></i>
-    </li>
-    <li @click="editor.chain().focus().setTextAlign('justify').run()" :class="{ 'is-active': editor.isActive({ textAlign: 'justify' }) }">
-      <i class="bi bi-justify"></i>
-    </li>
-      <li @click="addImage"><i class="bi bi-image"></i></li>
-    </ul>
+    <div class="box-list">
+      <ul class="list">
+        <li @click="editor.chain().focus().toggleHeading({ level: 1 }).run()" :class="{ 'is-active': editor.isActive('heading', { level: 1 }) }">
+          <i class="bi bi-type-h1"></i>
+        </li>
+        <li @click="editor.chain().focus().toggleHeading({ level: 2 }).run()" :class="{ 'is-active': editor.isActive('heading', { level: 2 }) }">
+          <i class="bi bi-type-h2"></i>
+        </li>
+        <li @click="editor.chain().focus().toggleHeading({ level: 3 }).run()" :class="{ 'is-active': editor.isActive('heading', { level: 3 }) }">
+          <i class="bi bi-type-h3"></i>
+        </li>
+        <li @click="editor.chain().focus().setParagraph().run()" :class="{ 'is-active': editor.isActive('paragraph') }">
+          <i class="bi bi-paragraph"></i>
+        </li>
+        <li @click="editor.chain().focus().toggleBold().run()" :class="{ 'is-active': editor.isActive('bold') }">
+          <i class="bi bi-type-bold"></i>
+        </li>
+        <li @click="editor.chain().focus().toggleItalic().run()" :class="{ 'is-active': editor.isActive('italic') }">
+          <i class="bi bi-type-italic"></i>
+        </li>
+        <li @click="editor.chain().focus().toggleStrike().run()" :class="{ 'is-active': editor.isActive('strike') }">
+          <i class="bi bi-type-strikethrough"></i>
+        </li>
+        <li @click="editor.chain().focus().setTextAlign('left').run()" :class="{ 'is-active': editor.isActive({ textAlign: 'left' }) }">
+          <i class="bi bi-text-left"></i>
+        </li>
+        <li @click="editor.chain().focus().setTextAlign('center').run()" :class="{ 'is-active': editor.isActive({ textAlign: 'center' }) }">
+          <i class="bi bi-text-center"></i>
+        </li>
+        <li @click="editor.chain().focus().setTextAlign('right').run()" :class="{ 'is-active': editor.isActive({ textAlign: 'right' }) }">
+          <i class="bi bi-text-right"></i>
+        </li>
+        <li @click="editor.chain().focus().setTextAlign('justify').run()" :class="{ 'is-active': editor.isActive({ textAlign: 'justify' }) }">
+          <i class="bi bi-justify"></i>
+        </li>
+        <li @click="addImage"><i class="bi bi-image"></i></li>
+      </ul>
+    </div>
     <editor-content :editor="editor" />
   </div>
 </template>
@@ -124,13 +126,26 @@ export default defineComponent({
 </script>
 
 <style scoped lang="scss">
-.list{
+
+.box-list{
+  position: sticky;
+  top: 0px;
+  z-index: 10;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list{
+  background-color: white;
+  border: 1px solid #cdcdcd;
+  border-radius: 18px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 20px 0;
-  padding: 0;
+  margin: 10px 0 5px 0;
+  padding: 10px;
   gap: 3px;
 
   li{

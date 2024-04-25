@@ -18,6 +18,7 @@ export default [
          title: "Тартуський університет (Естонія)",
       },
       link: "https://ut.ee/en",
+      linkEvents: "https://narva.ut.ee/en/boost",
       img: utImg
    },
    {      
@@ -29,6 +30,7 @@ export default [
          title: "Приморський університет (Словенія)",
       },
       link: "https://www.upr.si/",
+      linkEvents: "https://www.pef.upr.si/sl/raziskovanje/mednarodni-projekti/2023082110014584/bringing-opportunities-and-organizational-success-to-small-local-universities-in-ukraine-boost",
       img: uprImg
    },
    {
@@ -40,6 +42,7 @@ export default [
          title: "Державний університет в Ельблонзі (Польща)",
       },
       link: "https://ans-elblag.pl/",
+      linkEvents: "https://ans-elblag.pl/projekty/",
       img: ansImg
    },
    {
@@ -51,6 +54,7 @@ export default [
          title: "Полтавський національний педагогічний університет імені В.Г. Короленка (Україна)",
       },
       link: "http://pnpu.edu.ua/",
+      linkEvents: "http://pnpu.edu.ua/ka2-boost",
       img: pnpuImg
    },
    {
@@ -62,6 +66,7 @@ export default [
          title: "Донбаська національна академія будівництва і архітектури (Україна)",
       },
       link: "https://donnaba.edu.ua/",
+      linkEvents: "https://sites.google.com/it.donnaba.edu.ua/boostdonnacea/boost-engl",
       img: donnabaImg
    },
    {
@@ -73,6 +78,7 @@ export default [
          title: "Мелітопольський державний педагогічний університет імені Богдана Хмельницького (Україна)",
       },
       link: "https://mdpu.org.ua/",
+      linkEvents: "https://mv.mdpu.org.ua/erasmus-bringing-opportunities-and-organizational-success-to-small-local-universities-in-ukraine-boost/",
       img: mdpuImg
    },
    {
@@ -84,6 +90,7 @@ export default [
          title: "Ізмаїльський державний гуманітарний університет (Україна)",
       },
       link: "http://idgu.edu.ua/",
+      linkEvents: "http://idgu.edu.ua/erasmus-ka2",
       img: idguImg
    },
    {
@@ -95,6 +102,7 @@ export default [
          title: "Кременецька обласна гуманітарно-педагогічна академія імені Тараса Шевченка (Україна)",
       },
       link: "https://kogpa.edu.ua/uk/",
+      linkEvents: "https://kogpa.edu.ua/uk/golovna/mizhnarodna-spivpratsia/2-uncategorised/1202-proiekt-boost",
       img: kogpaImg
    },
    {
@@ -106,6 +114,7 @@ export default [
          title: "Мукачівський державний університет (Україна)",
       },
       link: "https://msu.edu.ua/",
+      linkEvents: "https://msu.edu.ua/boost/",
       img: msuImg
    }
 ]

@@ -15,6 +15,8 @@ import HeaderApp from '@/components/HeaderApp.vue';
 import headerImg from "@/assets/header.jpg"
 import { IEvent } from "@/types/store"
 
+const API_URL = import.meta.env.VITE_API_URL
+
 export default defineComponent({
    components: {
       HeaderApp
@@ -22,7 +24,7 @@ export default defineComponent({
    data() {
       return {
          url: this.$route.params.url,
-         API_URL: import.meta.env.VITE_API_URL,
+         API_URL: API_URL,
          event: null as IEvent | null | undefined
       }
    },
@@ -31,7 +33,9 @@ export default defineComponent({
          if (!this.event?.imgCover) {
             return headerImg;
          }
-         const API_URL = import.meta.env.VITE_API_URL
+         if (this.event?.imgCover.includes('https')) {
+            return this.event?.imgCover;
+         }
          return `${API_URL}/static/images/${this.event?.imgCover}`
       }
    },
