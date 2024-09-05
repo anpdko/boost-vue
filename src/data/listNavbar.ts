@@ -25,5 +25,10 @@ export default  [
       id: "5",
       link: "/contacts",
       title: "Contacts"
-   },
+  },
+  {
+      id: "6",
+      link: "/results",
+      title: "Results"
+  },
 ]
