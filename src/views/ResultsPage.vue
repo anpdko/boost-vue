@@ -56,6 +56,22 @@
     components: {
       HeaderApp,
       ResultCard
+    },
+    mounted() {
+      // Google Analytics 4
+      const script = document.createElement('script');
+      script.src = "https://www.googletagmanager.com/gtag/js?id=G-FYEMMNL7QB";
+      script.async = true;
+      document.head.appendChild(script);
+
+      const inlineScript = document.createElement('script');
+      inlineScript.innerHTML = `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-FYEMMNL7QB');
+   `;
+      document.head.appendChild(inlineScript);
     }
   });
 </script>
