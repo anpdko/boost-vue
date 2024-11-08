@@ -52,7 +52,7 @@
           },
           {
             title: "3. Syllabus of the course “Student-centred approaches for blended learning”",
-            //description: "Deliverable description for Deliverable 3",
+            //description: "Deliverable description for Deliverable 3" ,
             links: [
               { name: 'Final_21_07_Student_centred_approaches_for_blended_learning', url: 'https://docs.google.com/document/d/1qdrd3vBkKO13cksjRx_-PyNcT2upsvFO/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
               { name: 'Review 1 (EU)', url: 'https://drive.google.com/file/d/1PwLL8UW858fKMOkYDNuHP2QIjwHRe_wU/view?usp=sharing' },
