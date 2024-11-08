@@ -27,6 +27,13 @@
   import ResultCard from '@/components/ResultCard.vue';
   import headerImg from "@/assets/header.jpg";
 
+  type Result = {
+    title: string;
+    description?: string;
+    imageSrc?: string;
+    links: { name: string; url: string }[];
+  };
+
   export default defineComponent({
     data() {
       return {
@@ -96,8 +103,8 @@
               { name: 'BOOST Pathways to Enhancing the Quality of Higher Education 2024.10.30 ', url: 'https://docs.google.com/presentation/d/1XoGdkr329HAIv0f0U1pSyr0r1ueXH_Pi/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' }
             ]
           }
-        ]
-      }
+        ] as Result[]
+      };
     },
     components: {
       HeaderApp,

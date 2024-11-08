@@ -27,7 +27,7 @@
       },
       description: {
         type: String,
-        required: true
+        required: false // Установлено в false
       },
       imageSrc: {
         type: String,
@@ -59,14 +59,6 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    h3
-
-  {
-    display: flex;
-    align-items: center;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 5px;
   }
 
   .arrow {
@@ -83,6 +75,8 @@
 
   .image-container {
     margin: 10px 0;
+    display: flex;
+    justify-content: center;
   }
 
     .image-container img {
@@ -90,23 +84,34 @@
       border-radius: 8px;
     }
 
-  .links a {
-    color: #007bff;
-    text-decoration: none;
-    font-weight: 600;
-    display: block;
-    margin-top: 5px;
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 
-    .links a:hover {
-      text-decoration: underline;
+    .links a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 600;
+      display: block;
     }
 
-  &:hover {
+      .links a:hover {
+        text-decoration: underline;
+      }
+
+  .result-card:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
+  .result-card .expanded {
+    display: block;
+  }
+
+  .result-card .collapsed {
+    display: none;
   }
 
   
