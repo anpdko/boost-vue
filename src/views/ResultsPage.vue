@@ -1,24 +1,21 @@
-<template>
+﻿<template>
   <div class="results">
     <HeaderApp :img="headerImg">
       BOOST RESULTS
     </HeaderApp>
     <div class='container'>
       <div class="content">
-        <center><h4>The title text of this page. This page contains the results of the project.</h4></center>
-        <p><b>The description text of this page, the description text of the results offered for review on this page.</b></p>
-        <p>The description text of this page, the description text of the results offered for review on this page.</p>
-        <!--<p>The description text of this page, the description text of the results offered for review on this page.</p>
-        <p>The description text of this page, the description text of the results offered for review on this page.</p>
-        <p>The description text of this page, the description text of the results offered for review on this page.</p>
-        <p>The description text of this page, the description text of the results offered for review on this page.</p>-->
+        <center><h4> </h4></center>
+        <p><b>  </b></p>
+        <p>  </p>
       </div>
       <div class="results-section">
         <ResultCard v-for="(result, index) in results"
                     :key="index"
                     :title="result.title"
-                    :description="result.description"
-                    :fileLink="result.fileLink" />
+                    :description="result.description || ''"
+                    :links="result.links"
+                    :imageSrc="result.imageSrc" />
       </div>
     </div>
   </div>
@@ -36,19 +33,68 @@
         headerImg,
         results: [
           {
-            title: "Deliverable 1",
-            description: "Deliverable description",
-            fileLink: "https://boost.mspu.edu.ua/"
+            title: "1. Workshops on IT and Tech Support (University of Applied Sciences in Elbląg)",
+            //description: "Deliverable description for Workshop 1",
+            links: [
+              { name: 'Moodle on Debian Linux', url: 'https://drive.google.com/file/d/1pH6HvqG6VXjl3SPY9yefJ4PL9sgClpb7/view?usp=sharing' },
+              { name: 'Moodle on Debian Linux + UA', url: 'https://drive.google.com/file/d/1wIhBtGIdBvAYxXtV_G2cJQ8t4BIGYcOC/view?usp=sharing' },
+              { name: 'Possible uses of the Quiz component', url: 'https://drive.google.com/file/d/1ur00QM_SF250YZNjGuB4VnC14yx4PsCw/view?usp=sharing' },
+              { name: 'RF Moodle Administration and Managemen UA translation', url: 'https://drive.google.com/file/d/1HejDPV2KBEfMg2bHojWQ8Xzv0qToToak/view?usp=sharing' },
+              { name: 'RF Moodle Administration and Managemen', url: 'https://drive.google.com/file/d/1CP_iulMTqoJTUpB9NIk1fse0AAVCEd0y/view?usp=sharing' }
+            ]
           },
           {
-            title: "Deliverable 2",
-            description: "Deliverable description",
-            fileLink: "https://boost.mspu.edu.ua/"
+            title: "2. Dissemination plan",
+            //description: "Deliverable description for Deliverable 2",
+            links: [
+              { name: 'BOOST Dissemination Plan_Final', url: 'https://docs.google.com/document/d/1ZJcrcvX9jKX26-MgoxMdcEPM54VXnSNF/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' }
+            ]
           },
           {
-            title: "Deliverable 3",
-            description: "Deliverable description",
-            fileLink: "https://boost.mspu.edu.ua/"
+            title: "3. Syllabus of the course “Student-centred approaches for blended learning”",
+            //description: "Deliverable description for Deliverable 3",
+            links: [
+              { name: 'Final_21_07_Student_centred_approaches_for_blended_learning', url: 'https://docs.google.com/document/d/1qdrd3vBkKO13cksjRx_-PyNcT2upsvFO/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
+              { name: 'Review 1 (EU)', url: 'https://drive.google.com/file/d/1PwLL8UW858fKMOkYDNuHP2QIjwHRe_wU/view?usp=sharing' },
+              { name: 'Review 2 (UA)', url: 'https://drive.google.com/file/d/1oJ58WmesOi-4Cj4SUOwHNcv5tI1GHrYq/view?usp=sharing' }
+            ]
+          },
+          {
+            title: "4. Laboratories for Blended Learning",
+            //description: "Deliverable description for Deliverable 4",
+            links: [
+              {
+                name: 'BOOST DonNACEA', url: 'https://sites.google.com/it.donnaba.edu.ua/boostdonnacea/history'
+              },
+              { name: 'ВІДКРИТТЯ ЛАБОРАТОРІЇ ЗМІШАНОГО НАВЧАННЯ', url: 'https://www.youtube.com/watch?v=Ve26CHEAobE' },
+              { name: 'Відкриття Лабораторії змішаного навчання в рамках проєкту «BOOST»', url: 'http://idgu.edu.ua/51770' },
+              { name: 'ЗАМОК', url: 'https://kogpa.edu.ua/images/main_dir/library/ZAMOK/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA%207-12%202024.pdf' },
+              { name: 'Відкриття лабораторії змішаних навчань', url: 'https://www.youtube.com/watch?v=ZaUc5f-uUHg&t=13s' },
+              { name: 'Інтерактивне навчання - цікаве навчання!', url: 'https://drive.google.com/file/d/13qxcSniRg0RpAQ3j7ndyVmwPVogxYIS7/view?usp=sharing' }
+            ]
+          },
+          {
+            title: "5. Internationalisation strategy",
+            //description: "Deliverable description for Deliverable 5",
+            links: [
+              { name: 'BKMSPU INTERNATIONALISATION STRATEGY promotion materials', url: 'https://drive.google.com/file/d/1c-KFBx0NHggpisIu3_rnq0vycFzJCGgb/view?usp=sharing' },
+              { name: 'Internationalization strategy of MSU until 2030-eng', url: 'https://drive.google.com/file/d/1xAfNL1DsiPuUWohRG_3Jkk1NeJjJED9d/view?usp=sharing' },
+              { name: 'P7 Internationalization Strategy (ISUH)', url: 'https://drive.google.com/file/d/1IFExO9OjNdWt51MA8GuPcZ9C-Z_h8nMt/view?usp=sharing' },
+              { name: 'Promotional material of the Internationalization Strategy of PNPU', url: 'https://drive.google.com/file/d/1v27-Mk4W0_T8iDPhWgbWVkKQoKRzhF3j/view?usp=sharing' },
+              { name: 'Strategy of Internationalisation P8 KREMENETS', url: 'https://drive.google.com/file/d/1_gZFqYD_Be4ewY9D3HNS6y5S6sgaxlXu/view?usp=sharing' }
+            ]
+          },
+          {
+            title: "6. Q&A Webinar “University Digitalization Plan”",
+            description: "October 30, 2024",
+            imageSrc: "https://scontent-iev1-1.xx.fbcdn.net/v/t39.30808-6/462630789_122170223888112649_6957650862517327971_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mxg4wxsaivIQ7kNvgG2Rpzz&_nc_zt=23&_nc_ht=scontent-iev1-1.xx&_nc_gid=Aa49e1BC6bou7twCu6fYSYb&oh=00_AYATGpI0Ldu43M3X2VE0INMvyYdw1fV_bXl3bDElc8YWDw&oe=67329BA1", // путь к изображению для шестой карточки
+            links: [
+              { name: 'Інформаційний лист вебінару BOOST Ukr', url: 'https://docs.google.com/document/d/1r585NSB17pc61exU6fvomKC_xstTz7-3/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
+              { name: 'Webinar presentation', url: 'https://drive.google.com/file/d/12UtsFTt5baklfihTLMRfvyR49P0XePyg/view?usp=sharing' },
+              { name: 'Зміст стратегії диджиталізації переміщеного закладу вищої освіти', url: 'https://docs.google.com/presentation/d/1BGSFB-xGdcaXibC4PT6AXBB1EeGlFfR5/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
+              { name: 'Впровадження робототехніки в освітній процес', url: 'https://docs.google.com/presentation/d/1ujXRmmK4FED1LQaxGw_mb7a22WcrGXu3/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
+              { name: 'BOOST Pathways to Enhancing the Quality of Higher Education 2024.10.30 ', url: 'https://docs.google.com/presentation/d/1XoGdkr329HAIv0f0U1pSyr0r1ueXH_Pi/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' }
+            ]
           }
         ]
       }
@@ -56,47 +102,8 @@
     components: {
       HeaderApp,
       ResultCard
-    },
-    mounted() {
-      // Google Analytics 4
-      const script = document.createElement('script');
-      script.src = "https://www.googletagmanager.com/gtag/js?id=G-FYEMMNL7QB";
-      script.async = true;
-      document.head.appendChild(script);
-
-      const inlineScript = document.createElement('script');
-      inlineScript.innerHTML = `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-FYEMMNL7QB');
-   `;
-      document.head.appendChild(inlineScript);
     }
   });
 </script>
 
-<style scoped lang='scss'>
-  .results {
-    .content {
-      text-align: justify;
-      margin: 50px 0;
 
-      p {
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        color: #7A7A7A;
-        font-weight: normal;
-        font-size: 0.9rem;
-        line-height: 1.7;
-      }
-    }
-
-    .results-section {
-      margin-top: 30px;
-    }
-  }
-</style>
