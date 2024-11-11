@@ -65,6 +65,7 @@
     font-size: 1rem;
     margin-right: 10px;
     transition: transform 0.3s ease;
+    color: #4C6EF5;
   }
 
   p {
