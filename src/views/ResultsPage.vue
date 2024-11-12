@@ -94,7 +94,7 @@
           {
             title: "6. Q&A Webinar “University Digitalization Plan”",
             description: "October 30, 2024",
-            imageSrc: "https://scontent-iev1-1.xx.fbcdn.net/v/t39.30808-6/462630789_122170223888112649_6957650862517327971_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mxg4wxsaivIQ7kNvgG2Rpzz&_nc_zt=23&_nc_ht=scontent-iev1-1.xx&_nc_gid=Aa49e1BC6bou7twCu6fYSYb&oh=00_AYATGpI0Ldu43M3X2VE0INMvyYdw1fV_bXl3bDElc8YWDw&oe=67329BA1", 
+            imageSrc: "https://i.imgur.com/IewKuF2.jpg", 
             links: [
               { name: 'Інформаційний лист вебінару BOOST Ukr', url: 'https://docs.google.com/document/d/1r585NSB17pc61exU6fvomKC_xstTz7-3/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
               { name: 'Webinar presentation', url: 'https://drive.google.com/file/d/12UtsFTt5baklfihTLMRfvyR49P0XePyg/view?usp=sharing' },
@@ -107,7 +107,7 @@
           {
             title: "7. Online conference “Digital Tools for Interactive Learning”",
             description: "November, 18-29, 2024",
-            imageSrc: "https://scontent.xx.fbcdn.net/v/t1.15752-9/462563161_1346008306370910_7684287979469554487_n.jpg?stp=dst-jpg_s480x480&_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=1YQEbmWmX7UQ7kNvgE1KlWm&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEjiqq8OsOjEYbucSO0pjUV6Fi0j--XIEfM1lxAbv2Edw&oe=67599067", 
+            imageSrc: "https://i.imgur.com/sypg0Jy.jpg", 
             links: [
               { name: 'Інформаційний лист онлайн конференції BOOST Ukr', url: 'https://docs.google.com/document/d/1_X6vbx0XE1_jFpHi5CoMiLY6AIzETETr/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
               { name: '', url: '' }
