@@ -110,6 +110,19 @@
             imageSrc: "https://i.imgur.com/sypg0Jy.jpg", 
             links: [
               { name: 'Інформаційний лист онлайн конференції BOOST Ukr', url: 'https://docs.google.com/document/d/1_X6vbx0XE1_jFpHi5CoMiLY6AIzETETr/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
+              { name: 'Beata BARCHI цифрова компетентність освітня', url: 'https://drive.google.com/file/d/1sGZqESYgib-WpTE9acKFuCRIdRYDnu9I/view?usp=sharing' },
+              { name: 'O. Golovko Digital skills in Estonia', url: 'https://drive.google.com/file/d/1jRo6rDIc88Kd_B_CmfNx8CWpdjamaq3b/view?usp=sharing' },
+              { name: 'Леся Лисенко Цифрові інструменти дял пошуку, створення і перевірки навчального компоненту', url: 'https://drive.google.com/file/d/1LT7oCC_zsb87n4bV6O73jUma7G9eb2Yj/view?usp=sharing' },
+              { name: 'Мізюк Вікторія Ефективні прийоми співпраці Ізмаїл', url: 'https://drive.google.com/file/d/1PkDcYbdhQxyl4Oh5fyfjKjJYlOLtRkJ_/view?usp=sharing' },
+
+            ]
+          },
+          {
+            title: " 8. International week “University International Cooperation and Grant Activity”",
+            //description: "November, 18-29, 2024",
+            imageSrc: "https://i.imgur.com/lVuW7Eu.jpg",
+            links: [
+              { name: 'Інформаційний лист онлайн International Week BOOST Ukr', url: 'https://docs.google.com/document/d/1YaSW6qq44TQlPtfQP-4hdOuuWwfjx6IJ/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
               { name: '', url: '' }
             ]
           }
