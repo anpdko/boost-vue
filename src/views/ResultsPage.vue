@@ -114,7 +114,7 @@
               { name: 'O. Golovko Digital skills in Estonia', url: 'https://drive.google.com/file/d/1jRo6rDIc88Kd_B_CmfNx8CWpdjamaq3b/view?usp=sharing' },
               { name: 'Леся Лисенко Цифрові інструменти дял пошуку, створення і перевірки навчального компоненту', url: 'https://drive.google.com/file/d/1LT7oCC_zsb87n4bV6O73jUma7G9eb2Yj/view?usp=sharing' },
               { name: 'Мізюк Вікторія Ефективні прийоми співпраці Ізмаїл', url: 'https://drive.google.com/file/d/1PkDcYbdhQxyl4Oh5fyfjKjJYlOLtRkJ_/view?usp=sharing' },
-
+              { name: 'Катерина Осадча Штучний інтелект в освіті', url: 'https://docs.google.com/presentation/d/1m9L-FnL3wHt-g9x87s9qaiEul6s4npBH/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' }
             ]
           },
           {
