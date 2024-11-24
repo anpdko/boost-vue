@@ -13,6 +13,21 @@
         <a :href="link.url" target="_blank" rel="noopener noreferrer">{{ link.name }}</a>
       </div>
     </div>
+
+    <!-- nestedcard -->
+    <div v-if="isExpanded && nestedLinks?.length" class="nested-card">
+      <button @click.stop="toggleNested" class="nested-toggle-button">
+        <span class="nested-arrow">{{ isNestedExpanded ? '▼' : '▶' }}</span>
+        {{ isNestedExpanded ? 'Hide Materials' : 'Show Materials' }}
+      </button>
+
+      <!-- nested links inside nested card -->
+      <div v-if="isNestedExpanded" class="nested-links">
+        <div v-for="(nestedLink, index) in nestedLinks" :key="index">
+          <a :href="nestedLink.url" target="_blank" rel="noopener noreferrer">{{ nestedLink.name }}</a>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -27,7 +42,7 @@
       },
       description: {
         type: String,
-        required: false // Установлено в false
+        required: false
       },
       imageSrc: {
         type: String,
@@ -36,16 +51,25 @@
       links: {
         type: Array as PropType<{ name: string; url: string }[]>,
         required: true
+      },
+      nestedLinks: {
+        type: Array as PropType<{ name: string; url: string }[]>,
+        required: false
       }
     },
     setup() {
       const isExpanded = ref(false);
+      const isNestedExpanded = ref(false);
 
       const toggle = () => {
         isExpanded.value = !isExpanded.value;
       };
 
-      return { isExpanded, toggle };
+      const toggleNested = () => {
+        isNestedExpanded.value = !isNestedExpanded.value;
+      };
+
+      return { isExpanded, toggle, isNestedExpanded, toggleNested };
     }
   });
 </script>
@@ -85,20 +109,23 @@
       border-radius: 8px;
     }
 
-  .links {
+  .links,
+  .nested-links {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-    .links a {
+    .links a,
+    .nested-links a {
       color: #007bff;
       text-decoration: none;
       font-weight: 600;
       display: block;
     }
 
-      .links a:hover {
+      .links a:hover,
+      .nested-links a:hover {
         text-decoration: underline;
       }
 
@@ -107,13 +134,49 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
-  .result-card .expanded {
-    display: block;
+  .nested-card {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    padding: 0; 
   }
 
-  .result-card .collapsed {
-    display: none;
+  .nested-toggle-button {
+    width: 100%;
+    padding: 15px;
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
   }
 
-  
+  .nested-arrow {
+    font-size: 1rem;
+    margin-right: 10px;
+    color: #4C6EF5;
+  }
+
+  .nested-toggle-button:hover {
+    transform: none; 
+    box-shadow: none;
+  }
+
+ 
+  .nested-links {
+    padding: 15px; 
+    background-color: transparent; 
+  }
+
+    .nested-links a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+      .nested-links a:hover {
+        text-decoration: underline;
+      }
 </style>
