@@ -33,6 +33,7 @@
     description?: string;
     imageSrc?: string;
     links: { name: string; url: string }[];
+    nestedLinks?: { name: string; url: string }[];
   };
 
   export default defineComponent({
