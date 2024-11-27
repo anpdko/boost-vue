@@ -128,9 +128,13 @@
             //description: "November, 18-29, 2024",
             imageSrc: "https://i.imgur.com/lVuW7Eu.jpg",
             links: [
-              { name: 'Інформаційний лист онлайн International Week BOOST Ukr', url: 'https://docs.google.com/document/d/1YaSW6qq44TQlPtfQP-4hdOuuWwfjx6IJ/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
-              { name: '', url: '' }
-            ]
+              { name: 'Інформаційний лист онлайн International Week BOOST Ukr', url: 'https://docs.google.com/document/d/1YaSW6qq44TQlPtfQP-4hdOuuWwfjx6IJ/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' }
+             
+            ],
+            nestedLinks: [
+              { name: 'Микола Каплієнко | BOOST PROJECT PRESENTATION', url: 'https://drive.google.com/file/d/1Sl0ijuZYispEk5d9saRnyB0hoEYZqFdg/view?usp=sharing' },
+              { name: 'Iwona Dwojacka | Erasmus without papers', url: 'https://drive.google.com/file/d/1eSy6_UMc80qQDHvpJb5RZ1q-TbZhC0eK/view?usp=sharing' }
+              ]
           }
         ] as Result[]
       };
