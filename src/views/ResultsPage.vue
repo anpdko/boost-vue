@@ -133,7 +133,8 @@
             ],
             nestedLinks: [
               { name: 'Микола Каплієнко | BOOST PROJECT PRESENTATION', url: 'https://drive.google.com/file/d/1Sl0ijuZYispEk5d9saRnyB0hoEYZqFdg/view?usp=sharing' },
-              { name: 'Iwona Dwojacka | Erasmus without papers', url: 'https://drive.google.com/file/d/1eSy6_UMc80qQDHvpJb5RZ1q-TbZhC0eK/view?usp=sharing' }
+              { name: 'Iwona Dwojacka | Erasmus without papers', url: 'https://drive.google.com/file/d/1eSy6_UMc80qQDHvpJb5RZ1q-TbZhC0eK/view?usp=sharing' },
+              { name: 'O.Golovko | Ideas from Thin Air', url: 'https://drive.google.com/file/d/1ahVzCuT1cJqPgWzJODghmyiG7K-7Nmix/view?usp=sharing' }
               ]
           }
         ] as Result[]
