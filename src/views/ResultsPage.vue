@@ -120,7 +120,8 @@
               { name: 'Мізюк Вікторія | Ефективні прийоми співпраці Ізмаїл', url: 'https://drive.google.com/file/d/1PkDcYbdhQxyl4Oh5fyfjKjJYlOLtRkJ_/view?usp=sharing' },
               { name: 'Катерина Осадча | Штучний інтелект в освіті', url: 'https://docs.google.com/presentation/d/1m9L-FnL3wHt-g9x87s9qaiEul6s4npBH/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
               { name: 'Magdalena Szyk-Wojtkiewicz | MODERN tools - ICT bank', url: 'https://padlet.com/magdalenaszykwojtkiewicz/modern-tools-ict-bank-2alvrvz6eu52zn7g' },
-              { name: 'Magdalena Szyk-Wojtkiewicz | Modern teaching with ICT tools', url: 'https://prezi.com/p/xfnwyszqzwee/modern-teaching-with-ict-tools/?present=1' }
+              { name: 'Magdalena Szyk-Wojtkiewicz | Modern teaching with ICT tools', url: 'https://prezi.com/p/xfnwyszqzwee/modern-teaching-with-ict-tools/?present=1' },
+              { name: '"Using Digital Tools in Peer Assessment"  Sonja Čotar Konrad та Karmen Drljić, University of Primorska (Slovenia)', url: 'https://www.mentimeter.com/app/presentation/alh6u9t3iap1gvqhomx2zdy8ai5z3t65/edit?source=share-modal' }
             ]
           },
           {
