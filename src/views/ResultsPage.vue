@@ -111,7 +111,8 @@
             description: "November, 18-29, 2024",
             imageSrc: "https://i.imgur.com/sypg0Jy.jpg", 
             links: [
-              { name: 'Інформаційний лист онлайн конференції BOOST Ukr', url: 'https://docs.google.com/document/d/1_X6vbx0XE1_jFpHi5CoMiLY6AIzETETr/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' }
+              { name: 'Інформаційний лист онлайн конференції BOOST Ukr', url: 'https://docs.google.com/document/d/1_X6vbx0XE1_jFpHi5CoMiLY6AIzETETr/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
+              { name: 'Сертифікати участі у конференції "«ЦИФРОВІ ІНСТРУМЕНТИ ДЛЯ ІНТЕРАКТИВНОГО НАВЧАННЯ», (18-29 листопада 2024 року)', url: 'https://donnabaeduua-my.sharepoint.com/:f:/g/personal/website_donnaba_edu_ua/EiAPGFGhLSJJgx-SYLryutQBb1U9svLOaZ2f-b0KBQimeg?e=Nke9rj' }
             ],
             nestedLinks: [
               { name: 'Beata BARCHI | цифрова компетентність освітня', url: 'https://drive.google.com/file/d/1sGZqESYgib-WpTE9acKFuCRIdRYDnu9I/view?usp=sharing' },
@@ -123,6 +124,7 @@
               { name: 'Magdalena Szyk-Wojtkiewicz | Modern teaching with ICT tools', url: 'https://prezi.com/p/xfnwyszqzwee/modern-teaching-with-ict-tools/?present=1' },
               { name: '"Using Digital Tools in Peer Assessment"  Sonja Čotar Konrad та Karmen Drljić, University of Primorska (Slovenia)', url: 'https://www.mentimeter.com/app/presentation/alh6u9t3iap1gvqhomx2zdy8ai5z3t65/edit?source=share-modal' },
               { name: 'Презентація виступу О. Фурман та Н. Бабій | Мобільне навчання в умовах розвитку цифрового суспільства', url: 'https://docs.google.com/presentation/d/1xteSUxWTrGL3lzJYpI8BskXIZgns80sn/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' }
+              
             ]
           },
           {
