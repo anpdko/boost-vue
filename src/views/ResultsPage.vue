@@ -112,7 +112,7 @@
             imageSrc: "https://i.imgur.com/sypg0Jy.jpg", 
             links: [
               { name: 'Інформаційний лист онлайн конференції BOOST Ukr', url: 'https://docs.google.com/document/d/1_X6vbx0XE1_jFpHi5CoMiLY6AIzETETr/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
-              { name: 'Сертифікати участі у конференції "«ЦИФРОВІ ІНСТРУМЕНТИ ДЛЯ ІНТЕРАКТИВНОГО НАВЧАННЯ», (18-29 листопада 2024 року)', url: 'https://donnabaeduua-my.sharepoint.com/:f:/g/personal/website_donnaba_edu_ua/EiAPGFGhLSJJgx-SYLryutQBb1U9svLOaZ2f-b0KBQimeg?e=Nke9rj' }
+              { name: 'Сертифікати участі у конференції «ЦИФРОВІ ІНСТРУМЕНТИ ДЛЯ ІНТЕРАКТИВНОГО НАВЧАННЯ», (18-29 листопада 2024 року)', url: 'https://donnabaeduua-my.sharepoint.com/:f:/g/personal/website_donnaba_edu_ua/EiAPGFGhLSJJgx-SYLryutQBb1U9svLOaZ2f-b0KBQimeg?e=Nke9rj' }
             ],
             nestedLinks: [
               { name: 'Beata BARCHI | цифрова компетентність освітня', url: 'https://drive.google.com/file/d/1sGZqESYgib-WpTE9acKFuCRIdRYDnu9I/view?usp=sharing' },
