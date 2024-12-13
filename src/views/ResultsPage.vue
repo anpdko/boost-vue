@@ -139,13 +139,16 @@
             nestedLinks: [
               { name: 'Микола Каплієнко | BOOST PROJECT PRESENTATION', url: 'https://drive.google.com/file/d/1Sl0ijuZYispEk5d9saRnyB0hoEYZqFdg/view?usp=sharing' },
               { name: 'Iwona Dwojacka | Erasmus without papers', url: 'https://drive.google.com/file/d/1eSy6_UMc80qQDHvpJb5RZ1q-TbZhC0eK/view?usp=sharing' },
-              { name: 'O.Golovko | Ideas from Thin Air', url: 'https://drive.google.com/file/d/1ahVzCuT1cJqPgWzJODghmyiG7K-7Nmix/view?usp=sharing' },
+              { name: 'O. Golovko | Ideas from Thin Air', url: 'https://drive.google.com/file/d/1ahVzCuT1cJqPgWzJODghmyiG7K-7Nmix/view?usp=sharing' },
               { name: 'Silva Bratož | University Alliance: What, Where, How', url: 'https://docs.google.com/presentation/d/1mH_jr4gliACs-3KY2VL9it38cIMMLolp/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
               { name: 'Ю.Ліщук, Д.Клак | EduRob: від ідеї до заявки та запуску проєкту', url: 'https://docs.google.com/presentation/d/14kdKpKQ9f2_R1mcckAfCowUjAWDH_v2g/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
               { name: 'Альона Чорна | CRED4TEACH Мікрокваліфікації на основі MOOC для професійного розвитку викладачів', url: 'https://drive.google.com/file/d/13JRVu_84SReCGAEtJ5ySgIWXAfeknBgS/view?usp=sharing' },
               { name: 'Оксана Рудич | WIN-projecting: outcomes and prospect', url: 'https://docs.google.com/presentation/d/1aST2eju40swHlA-WKz6KdPePxIHpUYKN/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
-              { name: 'Микола Каплієнко | CBC-DEBUS – ІННОВАЦІЙНИЙ РОЗВИТОК ПІДПРИЄМНИЦЬКОЇ ОСВІТИ ТА СТИМУЛЮВАННЯ НОВОГО БІЗНЕСУ В ТРАНСКОРДОННОМУ РЕГІОНІ ', url: 'https://drive.google.com/file/d/1D3dTqUWpTh4LxQ-2iOZjbflUnzsYy3bg/view?usp=sharing' }
-              ]
+              { name: 'Микола Каплієнко | CBC-DEBUS – ІННОВАЦІЙНИЙ РОЗВИТОК ПІДПРИЄМНИЦЬКОЇ ОСВІТИ ТА СТИМУЛЮВАННЯ НОВОГО БІЗНЕСУ В ТРАНСКОРДОННОМУ РЕГІОНІ ', url: 'https://drive.google.com/file/d/1D3dTqUWpTh4LxQ-2iOZjbflUnzsYy3bg/view?usp=sharing' },
+              { name: 'T. Konovalenko | Стратегія інтернаціоналізації: від завдання до розробки та впровадження', url: 'https://drive.google.com/file/d/1GQGUgbDwCZCTUJAfEfuFrLJ2RrGJXpYa/view?usp=sharing' },
+              { name: 'І. Когут, В. Ганнущенко | Академічна мобільність та міжкультурна компетентність у програмі Erasmus+: шляхи до нових можливостей для проєктів', url: 'https://docs.google.com/presentation/d/1B4BOIio6brBDE7aWULUV8UlP9FAhHoSU/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
+              { name: 'С. Колесніченко, Т. Калашникова, Ю. Грицук | Реалізація стратегії інтернаціоналізації для переміщеного ЗВО', url: 'https://docs.google.com/presentation/d/1Wa7er9PI0bENOFgHom6Z8jnzdn5YclXx/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' }
+            ]
           }
         ] as Result[]
       };
