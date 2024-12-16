@@ -133,7 +133,7 @@
             imageSrc: "https://i.imgur.com/lVuW7Eu.jpg",
             links: [
               { name: 'Інформаційний лист онлайн International Week BOOST Ukr', url: 'https://docs.google.com/document/d/1YaSW6qq44TQlPtfQP-4hdOuuWwfjx6IJ/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
-              { name: 'Certificates F2F day in Mukachevo State University', url: 'https://drive.google.com/drive/folders/1A4mM4Js_p6bLLu1rIjDF9heCeNtDyrpj?usp=sharing' }
+              { name: 'Certificates F2F day in Mukachevo State University', url: 'https://drive.google.com/drive/folders/1wqHPe7BcmncjJYLeDrzOiRBBXPvTt2nm?usp=sharing' }
              
             ],
             nestedLinks: [
