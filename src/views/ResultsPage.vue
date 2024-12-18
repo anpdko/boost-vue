@@ -147,7 +147,8 @@
               { name: 'Микола Каплієнко | CBC-DEBUS – ІННОВАЦІЙНИЙ РОЗВИТОК ПІДПРИЄМНИЦЬКОЇ ОСВІТИ ТА СТИМУЛЮВАННЯ НОВОГО БІЗНЕСУ В ТРАНСКОРДОННОМУ РЕГІОНІ ', url: 'https://drive.google.com/file/d/1D3dTqUWpTh4LxQ-2iOZjbflUnzsYy3bg/view?usp=sharing' },
               { name: 'T. Konovalenko | Стратегія інтернаціоналізації: від завдання до розробки та впровадження', url: 'https://drive.google.com/file/d/1GQGUgbDwCZCTUJAfEfuFrLJ2RrGJXpYa/view?usp=sharing' },
               { name: 'І. Когут, В. Ганнущенко | Академічна мобільність та міжкультурна компетентність у програмі Erasmus+: шляхи до нових можливостей для проєктів', url: 'https://docs.google.com/presentation/d/1B4BOIio6brBDE7aWULUV8UlP9FAhHoSU/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
-              { name: 'С. Колесніченко, Т. Калашникова, Ю. Грицук | Реалізація стратегії інтернаціоналізації для переміщеного ЗВО', url: 'https://docs.google.com/presentation/d/1Wa7er9PI0bENOFgHom6Z8jnzdn5YclXx/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' }
+              { name: 'С. Колесніченко, Т. Калашникова, Ю. Грицук | Реалізація стратегії інтернаціоналізації для переміщеного ЗВО', url: 'https://docs.google.com/presentation/d/1Wa7er9PI0bENOFgHom6Z8jnzdn5YclXx/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
+              { name: 'O. Golovko | What is CBHE', url: 'https://drive.google.com/file/d/1uR_5AdQP5JbdFX6xyfAKRyEjuQQiiWU-/view?usp=sharing' }
             ]
           }
         ] as Result[]
