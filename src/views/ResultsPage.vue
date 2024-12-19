@@ -149,7 +149,8 @@
               { name: 'І. Когут, В. Ганнущенко | Академічна мобільність та міжкультурна компетентність у програмі Erasmus+: шляхи до нових можливостей для проєктів', url: 'https://docs.google.com/presentation/d/1B4BOIio6brBDE7aWULUV8UlP9FAhHoSU/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
               { name: 'С. Колесніченко, Т. Калашникова, Ю. Грицук | Реалізація стратегії інтернаціоналізації для переміщеного ЗВО', url: 'https://docs.google.com/presentation/d/1Wa7er9PI0bENOFgHom6Z8jnzdn5YclXx/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
               { name: 'O. Golovko | What is CBHE', url: 'https://drive.google.com/file/d/1uR_5AdQP5JbdFX6xyfAKRyEjuQQiiWU-/view?usp=sharing' },
-              { name: 'Aleš Oven, Sven Idarand, Irina Sikorska | T4EU-BOOST', url: 'https://drive.google.com/file/d/1RBGg3Elal6A5mZ1o46HH3-udQsjofh4_/view?usp=sharing' }
+              { name: 'Aleš Oven, Sven Idarand, Irina Sikorska | T4EU-BOOST', url: 'https://drive.google.com/file/d/1RBGg3Elal6A5mZ1o46HH3-udQsjofh4_/view?usp=sharing' },
+              { name: 'Н. Герцовська | Наш перший досвід в ERASMUS: Звідки починати', url: 'https://drive.google.com/file/d/184OMGn0rSD5RGXCuT2YZkRzQ5nK4izy5/view?usp=sharing' }
             ]
           }
         ] as Result[]
