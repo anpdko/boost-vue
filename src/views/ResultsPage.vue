@@ -134,7 +134,7 @@
             links: [
               { name: 'Інформаційний лист онлайн International Week BOOST Ukr', url: 'https://docs.google.com/document/d/1YaSW6qq44TQlPtfQP-4hdOuuWwfjx6IJ/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
               { name: 'Certificates F2F day in Mukachevo State University', url: 'https://drive.google.com/drive/folders/1wqHPe7BcmncjJYLeDrzOiRBBXPvTt2nm?usp=sharing' },
-              { name: 'Certificates_Online day in Bogdan Khmelnitsky State Pedagogical University', url: 'https://drive.google.com/drive/folders/11xNIeoT7wriFpiHWVwKZMwEQoka06unV?usp=sharing' }
+              { name: 'Certificates_Online day in Bogdan Khmelnitsky Melitopol State Pedagogical University', url: 'https://drive.google.com/drive/folders/11xNIeoT7wriFpiHWVwKZMwEQoka06unV?usp=sharing' }
             ],
             nestedLinks: [
               { name: 'Микола Каплієнко | BOOST PROJECT PRESENTATION', url: 'https://drive.google.com/file/d/1Sl0ijuZYispEk5d9saRnyB0hoEYZqFdg/view?usp=sharing' },
