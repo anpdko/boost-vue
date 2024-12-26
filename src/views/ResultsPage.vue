@@ -135,7 +135,13 @@
               { name: 'Інформаційний лист онлайн International Week BOOST Ukr', url: 'https://docs.google.com/document/d/1YaSW6qq44TQlPtfQP-4hdOuuWwfjx6IJ/edit?usp=sharing&ouid=100026206590549716007&rtpof=true&sd=true' },
               { name: 'Certificates F2F day in Mukachevo State University', url: 'https://drive.google.com/drive/folders/1wqHPe7BcmncjJYLeDrzOiRBBXPvTt2nm?usp=sharing' },
               { name: 'Certificates_Online day in Bogdan Khmelnitsky Melitopol State Pedagogical University', url: 'https://drive.google.com/drive/folders/11xNIeoT7wriFpiHWVwKZMwEQoka06unV?usp=sharing' },
-              { name: 'Certificates_Online day in Donbas National Academy of Civil Engineering and Architecture', url: 'https://donnabaeduua-my.sharepoint.com/:f:/g/personal/website_donnaba_edu_ua/Emzh5G8KAA5DhlUJdBILtTUBr5NWESRlesxX3IeighuMRA?e=IPMMsC' }
+              { name: 'Certificates_Online day in Donbas National Academy of Civil Engineering and Architecture', url: 'https://donnabaeduua-my.sharepoint.com/:f:/g/personal/website_donnaba_edu_ua/Emzh5G8KAA5DhlUJdBILtTUBr5NWESRlesxX3IeighuMRA?e=IPMMsC' },
+              { name: 'Certificates_Day_1', url: 'https://drive.google.com/file/d/1Agrk12boYMYMTyQ3J9QwATlNXG5jXMlc/view?usp=sharing' },
+              { name: 'Certificates_Day_2', url: 'https://drive.google.com/file/d/19Bpf9hmZIGNh3lVVaDD56dYgZk_6pUyC/view?usp=sharing' },
+              { name: 'Certificates_Day_3', url: 'https://drive.google.com/file/d/1zTpr3eVhhJJt_s5bkZ55IL98IUxpn53a/view?usp=sharing' },
+              { name: 'Certificates_Day_4', url: 'https://drive.google.com/file/d/1yMDbbr02hxBwm35kMUzj6fi658dnAnfR/view?usp=sharing' },
+              { name: 'Certificates_Day_5', url: 'https://drive.google.com/file/d/1UspnMI-FODQjua301iFIyg2MRO9fL1TL/view?usp=sharing' }
+
             ],
             nestedLinks: [
               { name: 'Микола Каплієнко | BOOST PROJECT PRESENTATION', url: 'https://drive.google.com/file/d/1Sl0ijuZYispEk5d9saRnyB0hoEYZqFdg/view?usp=sharing' },
