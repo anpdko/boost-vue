@@ -161,6 +161,15 @@
               { name: 'М. Каплієнко | Дорожня карта для університетів, розташованих у невеликих містах', url: 'https://drive.google.com/file/d/1jo36gUQQnRcdYzTCEh3rfDg7hPEvrOQy/view?usp=sharing' }
 
             ]
+          },
+          {
+            title: "9. Professional development course “Student-centred approaches for blended learning”",
+            //description: "October 30, 2024",
+            //imageSrc: "https://i.imgur.com/IewKuF2.jpg",
+            links: [
+              { name: 'Syllabus of the Professional Development Course “Student-centred approaches for blended learning”', url: 'https://drive.google.com/file/d/1nTaHxMxfFwg8QwtCJqpGUDGOcGKOWj2q/view?usp=sharing' },
+              { name: 'Certificates_PDC_Bogdan Khmelnitsky Melitopol State Pedagogical University', url: 'https://drive.google.com/drive/folders/1vqD2yOYVZF701qdwXdIoX82nUkXYJUI3?usp=sharing' }
+            ]
           }
         ] as Result[]
       };
