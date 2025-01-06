@@ -140,7 +140,8 @@
               { name: 'Certificates_Day_2', url: 'https://drive.google.com/file/d/19Bpf9hmZIGNh3lVVaDD56dYgZk_6pUyC/view?usp=sharing' },
               { name: 'Certificates_Day_3', url: 'https://drive.google.com/file/d/1zTpr3eVhhJJt_s5bkZ55IL98IUxpn53a/view?usp=sharing' },
               { name: 'Certificates_Day_4', url: 'https://drive.google.com/file/d/1yMDbbr02hxBwm35kMUzj6fi658dnAnfR/view?usp=sharing' },
-              { name: 'Certificates_Day_5', url: 'https://drive.google.com/file/d/1aUCmrhGm3rBILDzmOtYLtw6XT3tmlCZU/view?usp=sharing' }
+              { name: 'Certificates_Day_5', url: 'https://drive.google.com/file/d/1aUCmrhGm3rBILDzmOtYLtw6XT3tmlCZU/view?usp=sharing' },
+              { name: 'Certificates_F2F_day_in_Izmail State University of Humanities', url: 'https://drive.google.com/file/d/1Vca7fx8c3vs5ZiiwYd9gML5QqFjVaiPW/view?usp=sharing' }
 
             ],
             nestedLinks: [
