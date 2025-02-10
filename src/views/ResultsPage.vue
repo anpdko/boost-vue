@@ -172,6 +172,17 @@
               { name: 'Certificates_PDC_Bogdan Khmelnitsky Melitopol State Pedagogical University', url: 'https://drive.google.com/drive/folders/1vqD2yOYVZF701qdwXdIoX82nUkXYJUI3?usp=sharing' },
               { name: 'Certificates_PDC_Donbas National Academy of Civil Engineering and Architecture', url: 'https://donnabaeduua-my.sharepoint.com/:f:/g/personal/website_donnaba_edu_ua/Euix1C4km0dOrGiphuUhohABU1z82V3k_l5lKWbraM4H3g?e=J3IOJy' }
             ]
+          },
+          {
+            title: "10. Reports on updated courses",
+            links: [
+              { name: 'Inner monitoring of the updated courses BOOST_PNPU', url: 'https://drive.google.com/file/d/1JVRLibq4D0JgDjmJOfUf2HPiksp4RhQX/view?usp=drive_link' },
+              { name: 'Inner monitoring of the updated courses BOOST_DonNACEA', url: 'https://drive.google.com/file/d/1WrsKH2407wFVpcJ7CydM57L6wYTfk3tT/view?usp=drive_link' },
+              { name: 'Inner monitoring of the updated courses BOOST_MSPU', url: 'https://drive.google.com/file/d/1t6DlhU2LIz80MCL4LXjFDAUGt8nMQjnE/view?usp=drive_link' },
+              { name: 'Inner monitoring of the updated courses BOOST_ISUH', url: 'https://drive.google.com/file/d/17RBSUcLkWTEVPiklKI6ClGjO3XQGWjr-/view?usp=drive_link' },
+              { name: 'Inner monitoring of the updated courses BOOST_KOGPA', url: 'https://drive.google.com/file/d/1ntxIQjBvtbvrRGrPlIlw-88n-xfdPfZc/view?usp=drive_link' },
+              { name: 'Inner monitoring of the updated courses BOOST_MSU', url: 'https://drive.google.com/file/d/1yc7nZnfda5RQGTYM99qHb5w3w36hn2yD/view?usp=drive_link' }
+            ]
           }
         ] as Result[]
       };
