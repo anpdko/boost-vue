@@ -175,8 +175,6 @@
           },
           {
             title: "10. Reports on updated courses",
-            //description: "October 30, 2024",
-            //imageSrc: "https://i.imgur.com/IewKuF2.jpg",
             links: [
               { name: 'Inner monitoring of the updated courses BOOST_PNPU', url: 'https://drive.google.com/file/d/1JVRLibq4D0JgDjmJOfUf2HPiksp4RhQX/view?usp=drive_link' },
               { name: 'Inner monitoring of the updated courses BOOST_DonNACEA', url: 'https://drive.google.com/file/d/1WrsKH2407wFVpcJ7CydM57L6wYTfk3tT/view?usp=drive_link' },
