@@ -13,22 +13,27 @@
         <a :href="link.url" target="_blank" rel="noopener noreferrer">{{ link.name }}</a>
       </div>
     </div>
+    <div v-if="isExpanded && audioSrc">
+      <audio controls>
+        <source :src="audioSrc" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
+      </div>
+      <!-- nestedcard -->
+      <div v-if="isExpanded && nestedLinks?.length" class="nested-card">
+        <button @click.stop="toggleNested" class="nested-toggle-button">
+          <span class="nested-arrow">{{ isNestedExpanded ? '▼' : '▶' }}</span>
+          {{ isNestedExpanded ? 'Hide Materials' : 'Show Materials' }}
+        </button>
 
-    <!-- nestedcard -->
-    <div v-if="isExpanded && nestedLinks?.length" class="nested-card">
-      <button @click.stop="toggleNested" class="nested-toggle-button">
-        <span class="nested-arrow">{{ isNestedExpanded ? '▼' : '▶' }}</span>
-        {{ isNestedExpanded ? 'Hide Materials' : 'Show Materials' }}
-      </button>
-
-      <!-- nested links inside nested card -->
-      <div v-if="isNestedExpanded" class="nested-links">
-        <div v-for="(nestedLink, index) in nestedLinks" :key="index">
-          <a :href="nestedLink.url" target="_blank" rel="noopener noreferrer">{{ nestedLink.name }}</a>
+        <!-- nested links inside nested card -->
+        <div v-if="isNestedExpanded" class="nested-links">
+          <div v-for="(nestedLink, index) in nestedLinks" :key="index">
+            <a :href="nestedLink.url" target="_blank" rel="noopener noreferrer">{{ nestedLink.name }}</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script lang="ts">
@@ -55,6 +60,10 @@
       nestedLinks: {
         type: Array as PropType<{ name: string; url: string }[]>,
         required: false
+      },
+      audioSrc: {
+        type: String,
+        required: false
       }
     },
     setup() {
@@ -75,6 +84,18 @@
 </script>
 
 <style scoped>
+  .audio-player {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+
+  audio {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px;
+  }
   .result-card {
     border: 1px solid #ccc;
     border-radius: 8px;

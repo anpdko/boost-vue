@@ -16,7 +16,8 @@
                     :description="result.description || ''"
                     :links="result.links"
                     :imageSrc="result.imageSrc"
-                    :nestedLinks="result.nestedLinks"/>
+                    :nestedLinks="result.nestedLinks"
+                    :audioSrc="result.audioSrc"/>
       </div>
     </div>
   </div>
@@ -27,6 +28,7 @@
   import HeaderApp from '@/components/HeaderApp.vue';
   import ResultCard from '@/components/ResultCard.vue';
   import headerImg from "@/assets/header.jpg";
+  import audioFile1 from "@/assets/audio/Освітні_проекти_на_21-12-23.mp3";
 
   type Result = {
     title: string;
@@ -34,6 +36,7 @@
     imageSrc?: string;
     links: { name: string; url: string }[];
     nestedLinks?: { name: string; url: string }[];
+    audioSrc?: string;
   };
 
   export default defineComponent({
@@ -187,9 +190,10 @@
           },
           {
             title: "11. Audio podcast “BOOST initiatives: on the international cooperation of HEI”",
-            links: [
-              { name: 'Освітні проекти на 21-12-23.mp3', url: 'https://drive.google.com/file/d/1w-CMc3EeSwKPDfrH2BLPDDsICTLiVepZ/view?usp=sharing' }
-            ]
+            audioSrc: audioFile1,
+            //links: [
+            //  { name: 'Освітні проекти на 21-12-23.mp3', url: audioFile1 }
+            //]
           }
         ] as Result[]
       };
