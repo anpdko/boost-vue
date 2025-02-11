@@ -170,7 +170,8 @@
             links: [
               { name: 'Syllabus of the Professional Development Course “Student-centred approaches for blended learning”', url: 'https://drive.google.com/file/d/1nTaHxMxfFwg8QwtCJqpGUDGOcGKOWj2q/view?usp=sharing' },
               { name: 'Certificates_PDC_Bogdan Khmelnitsky Melitopol State Pedagogical University', url: 'https://drive.google.com/drive/folders/1vqD2yOYVZF701qdwXdIoX82nUkXYJUI3?usp=sharing' },
-              { name: 'Certificates_PDC_Donbas National Academy of Civil Engineering and Architecture', url: 'https://donnabaeduua-my.sharepoint.com/:f:/g/personal/website_donnaba_edu_ua/Euix1C4km0dOrGiphuUhohABU1z82V3k_l5lKWbraM4H3g?e=J3IOJy' }
+              { name: 'Certificates_PDC_Donbas National Academy of Civil Engineering and Architecture', url: 'https://donnabaeduua-my.sharepoint.com/:f:/g/personal/website_donnaba_edu_ua/Euix1C4km0dOrGiphuUhohABU1z82V3k_l5lKWbraM4H3g?e=J3IOJy' },
+              { name: 'Review of the professional development course', url: 'https://drive.google.com/file/d/1RdgJKtwi7jXxuzpvrZDHCPEhRxfcybcm/view?usp=sharing' }
             ]
           },
           {
