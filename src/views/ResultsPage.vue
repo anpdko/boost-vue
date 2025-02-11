@@ -184,6 +184,12 @@
               { name: 'Inner monitoring of the updated courses BOOST_KOGPA', url: 'https://drive.google.com/file/d/1ntxIQjBvtbvrRGrPlIlw-88n-xfdPfZc/view?usp=drive_link' },
               { name: 'Inner monitoring of the updated courses BOOST_MSU', url: 'https://drive.google.com/file/d/1yc7nZnfda5RQGTYM99qHb5w3w36hn2yD/view?usp=drive_link' }
             ]
+          },
+          {
+            title: "11. Audio podcast “BOOST initiatives: on the international cooperation of HEI”",
+            links: [
+              { name: 'Освітні проекти на 21-12-23.mp3', url: 'https://drive.google.com/file/d/1w-CMc3EeSwKPDfrH2BLPDDsICTLiVepZ/view?usp=sharing' }
+            ]
           }
         ] as Result[]
       };
