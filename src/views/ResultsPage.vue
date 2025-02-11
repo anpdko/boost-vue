@@ -194,6 +194,13 @@
             //links: [
             //  { name: 'Освітні проекти на 21-12-23.mp3', url: audioFile1 }
             //]
+          },
+          {
+            title: "12. Roadmap plan for local / remote universities",
+            links: [
+              { name: 'Roadmap ENG', url: 'https://drive.google.com/file/d/15R58rybA7yi0tLtrpOc6yXk76r3dIr1W/view?usp=sharing' },
+              { name: 'Roadmap UKR', url: 'https://drive.google.com/file/d/1QKWf5IBXfdqEeB_O5LmdkSZVR9T-ub7-/view?usp=sharing' }
+            ]
           }
         ] as Result[]
       };

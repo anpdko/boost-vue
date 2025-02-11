@@ -14,10 +14,12 @@
       </div>
     </div>
     <div v-if="isExpanded && audioSrc">
-      <audio controls @click.stop>
-        <source :src="audioSrc" type="audio/mp3" />
-        Your browser does not support the audio element.
-      </audio>
+      <div @click.stop>
+        <audio controls>
+          <source :src="audioSrc" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
       </div>
 
 
