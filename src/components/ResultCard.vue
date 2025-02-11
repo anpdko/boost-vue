@@ -14,11 +14,13 @@
       </div>
     </div>
     <div v-if="isExpanded && audioSrc">
-      <audio controls>
+      <audio controls @click.stop>
         <source :src="audioSrc" type="audio/mp3" />
         Your browser does not support the audio element.
       </audio>
       </div>
+
+
       <!-- nestedcard -->
       <div v-if="isExpanded && nestedLinks?.length" class="nested-card">
         <button @click.stop="toggleNested" class="nested-toggle-button">
