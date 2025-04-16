@@ -47,7 +47,7 @@
          <div class="container">
             <div class="bottom_footer_content">
                <div class="left">
-                  Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do
+                  Co-funded by the European Union. Views and opinions expressed are however those of the author(s) only and do
                   not necessarily reflect those of the European Education and Culture Agency (EACEA). Neither the European
                   Union nor the granting authority can be held responsible for them
                </div>
