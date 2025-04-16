@@ -32,6 +32,7 @@
                   <li>Oleksandr Pavlenko</li>
                   <li>Alina Maslova</li>
                   <li>Andrii Priadko</li>
+                  <li>Yehor Markov</li>
                </ul>
             </div>
 
